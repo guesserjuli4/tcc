@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Colaboradoradmin</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <h2>Cadastro de Colaboradoradmin</h2>
+    <form action="cadastrar_colaboradoradmin.php" method="post">
+    
+        <label for="matricula">Matricula:</label>
+        <input type="text" id="matricula" name="matricula" required>
+        
+        <label for="nome_colaborador">Nome colaborador:</label>
+        <input type="text" id="nome_colaborador" name="nome_colaborador" required>
+        
+        <label for="gmail_colaborador">Gmail colaborador:</label>
+        <input type="email" id="gmail_colaborador" name="gmail_colaborador" required>
+        
+        <label for="datanasc_colaborador">Datanasc colaborador:</label>
+        <input type="date" id="datanasc_colaborador" name="datanasc_colaborador" required>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

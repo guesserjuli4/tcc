@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Aluno</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <h2>Cadastro de Aluno</h2>
+    <form action="cadastrar_aluno.php" method="post">
+    
+        <label for="RA">Ra:</label>
+        <input type="text" id="RA" name="RA" required>
+        
+        <label for="nome_aluno">Nome aluno:</label>
+        <input type="text" id="nome_aluno" name="nome_aluno" required>
+        
+        <label for="gmail_aluno">Gmail aluno:</label>
+        <input type="email" id="gmail_aluno" name="gmail_aluno" required>
+        
+        <label for="datanasc_aluno">Datanasc aluno:</label>
+        <input type="date" id="datanasc_aluno" name="datanasc_aluno" required>
+        
+        <label for="inicio_graduacao">Inicio graduacao:</label>
+        <input type="date" id="inicio_graduacao" name="inicio_graduacao" required>
+        
+        <label for="alunocel">Alunocel:</label>
+        <input type="text" id="alunocel" name="alunocel" required>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

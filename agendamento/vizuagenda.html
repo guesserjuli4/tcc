@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Agenda - SIGE</title>
+    <link rel="stylesheet" href="vizuagenda.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <h2>AGENDAMENTO ONLINE</h2>
+        <ul>
+            <li><a href="agendas.php">Agendas</a></li>
+            <li><a href="lista_espera.php">Lista de Espera</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <header class="topbar">
+            <h1>Visualização da Agenda</h1>
+            <div class="user-info">
+                <p>Professor</p>
+                <img src="img/prof.png" alt="Usuário">
+            </div>
+        </header>
+
+        <section class="agenda-info">
+            <h2>Agenda de Psicologia</h2>
+            <p><strong>Data:</strong> 25/03/2024</p>
+            <p><strong>Horário:</strong> 08:00 - 17:00</p>
+            <p><strong>Status:</strong> Ativa</p>
+            <p><strong>Responsável:</strong> Prof. João da Silva</p>
+        </section>
+
+        <section class="pacientes-container">
+            <h2>Pacientes Agendados</h2>
+
+            <div class="paciente-card">
+                <h3>Maria Souza</h3>
+                <p><strong>Horário:</strong> 08:00</p>
+                <p><strong>Status:</strong> Confirmado</p>
+            </div>
+
+            <div class="paciente-card">
+                <h3>Lucas Pereira</h3>
+                <p><strong>Horário:</strong> 09:00</p>
+                <p><strong>Status:</strong> Pendente</p>
+            </div>
+
+            <div class="paciente-card">
+                <h3>Ana Costa</h3>
+                <p><strong>Horário:</strong> 10:00</p>
+                <p><strong>Status:</strong> Cancelado</p>
+            </div>
+        </section>
+        
+        <a href="agendas.php" class="voltar-btn">Voltar</a>
+    </main>
+</body>
+</html>

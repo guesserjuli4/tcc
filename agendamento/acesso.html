@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+    <link rel="stylesheet" href="acesso.css">
+</head>
+<body>
+    <header>ACESSO</header>
+
+    <section class="cards">
+        <div class="card aluno">
+            <a href="formularios/php/form_aluno.html">
+                <img src="img/aluno.png" alt="Aluno">
+                <p>ALUNO</p>
+            </a>
+        </div>
+        <div class="card prof">
+            <a href="formularios/php/form_professoradmin.html">
+                <img src="img/prof.png" alt="Professor">
+                <p>PROFESSOR</p>
+            </a>
+        </div>
+        <div class="card triagem">
+            <a href="formularios/php/form_colaboradoradmin.html">
+                <img src="img/triagem.png" alt="Triagem">
+                <p>TRIAGEM</p>
+            </a>
+        </div>
+    </section> 
+
+    <div class="form_login">
+        <h1>Faça seu Login</h1>
+        <form action="cadastrar_login.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>

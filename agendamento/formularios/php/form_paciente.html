@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Paciente</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <h2>Cadastro de Paciente</h2>
+    <form action="cadastrar_paciente.php" method="post">
+        <label for="cpf_paciente">CPF:</label>
+        <input type="text" id="cpf_paciente" name="cpf_paciente" required>
+
+        <label for="nome_paciente">Nome:</label>
+        <input type="text" id="nome_paciente" name="nome_paciente" required>
+
+        <label for="telefone_paciente">Telefone:</label>
+        <input type="text" id="telefone_paciente" name="telefone_paciente" required>
+
+        <label for="datanasc_paciente">Data de Nascimento:</label>
+        <input type="date" id="datanasc_paciente" name="datanasc_paciente" required>
+
+        <label for="gmail_paciente">E-mail:</label>
+        <input type="email" id="gmail_paciente" name="gmail_paciente" required>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
+
